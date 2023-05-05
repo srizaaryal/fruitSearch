@@ -1,0 +1,87 @@
+* {  
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  background:linear-gradient(to right, #94bfd0, #6ecbd3, #5dd8e3, #268ce4);
+}
+
+input {
+ /* TODO */
+  background-color: rgb(207, 218, 226);
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(207, 218, 226);
+  box-shadow: 1px, 1px,1px,0.5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.search-container {
+ /* TODO */
+ margin: 0 auto;
+ position: relative;
+ width: 300px;
+ height: 50px;
+ top: 300px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+}
+
+.search-container input,
+.search-container.suggestions {
+ /* TODO */
+}
+
+.search-container input {
+  /* TODO */
+  position: absolute;
+  width: 100%;
+ }
+
+
+.search-container .suggestions {
+   /* TODO */
+   
+  } 
+
+ul {
+  /* TODO */
+position: absolute;
+top: 50px;
+left: 0px;
+width: 100%;
+height:auto;
+max-height: 240px;
+overflow: hidden;
+padding: 0px;
+margin: 0px;
+z-index: -1;
+text-align: center;
+background-color: rgb(207, 218, 226);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+
+ul.has-suggestions {
+  /* TODO */
+}
+
+ul li {
+  /* TODO */
+  list-style-type: none;
+  font-size: medium;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+ul li:hover {
+  /* TODO */
+  background-color: #51a0e4;
+}
